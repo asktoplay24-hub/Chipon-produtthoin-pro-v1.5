@@ -327,9 +327,9 @@ clearInterval(timer);
 }
 
 // ปรับตัวเลขตามผลงานจริงของคุณ
-counter("count1", 50); // จำนวน Projects
-counter("count2", 20); // จำนวน Clients
-counter("count3", 5);  // จำนวน Awards / ผลงานโดดเด่น
+counter("count1", 6); // จำนวน Projects
+counter("count2", 15); // จำนวน Clients
+counter("count3", 4);  // จำนวน Awards / ผลงานโดดเด่น
 
 // ดึงการ์ด Photography (การ์ดแรก) แล้วสั่งให้เปลี่ยนหน้าไป /gallery เมื่อคลิก
 const photoCard = document.querySelector(".cards .card:nth-child(1)");
